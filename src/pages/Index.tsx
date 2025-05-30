@@ -135,8 +135,8 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Find Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Dream Job</span>
           </h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Discover amazing opportunities from top companies around the world
+          <p className="text-xl text-gray-600 mb-8 font-dmsans">
+            Discover amazing opportunities from top companies around the world -custom fonts added here
           </p>
           
           {/* Search Section */}
