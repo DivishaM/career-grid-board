@@ -1,4 +1,3 @@
-
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, MapPin, Briefcase, Clock, DollarSign, Users, Calendar, Heart, Share2, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -58,7 +57,8 @@ We're looking for someone who is passionate about frontend development, stays up
 
 const JobDetail = () => {
   const { id } = useParams();
-  const job = jobData[id as keyof typeof jobData];
+  const jobId = id ? parseInt(id, 10) : null;
+  const job = jobId ? jobData[jobId as keyof typeof jobData] : null;
 
   if (!job) {
     return (
