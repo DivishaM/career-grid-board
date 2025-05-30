@@ -1,4 +1,3 @@
-
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, MapPin, Users, Calendar, Globe, Building, Briefcase, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -84,6 +83,289 @@ const companyData = {
         name: "David Kim",
         role: "Head of Design",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      }
+    ]
+  },
+  innovatelabs: {
+    name: "InnovateLabs",
+    logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop&crop=center",
+    cover: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=400&fit=crop&crop=center",
+    tagline: "Innovation through collaboration",
+    description: "InnovateLabs is a software company focused on creating cutting-edge SaaS solutions for enterprise clients. We combine creativity with technical excellence to deliver products that transform how businesses operate.",
+    industry: "Software",
+    size: "500-1000 employees",
+    founded: "2018",
+    location: "New York, NY",
+    website: "https://innovatelabs.com",
+    rating: 4.6,
+    reviewCount: 89,
+    culture: [
+      "Innovation-first",
+      "Team collaboration",
+      "Customer-centric",
+      "Agile mindset",
+      "Professional growth"
+    ],
+    benefits: [
+      "Stock options",
+      "Health & dental insurance",
+      "Remote work flexibility",
+      "Learning budget",
+      "Gym membership",
+      "Team retreats",
+      "Flexible hours"
+    ],
+    openJobs: [
+      {
+        id: 4,
+        title: "Full Stack Developer",
+        department: "Engineering",
+        type: "Full-time",
+        location: "New York, NY",
+        posted: "1 day ago"
+      },
+      {
+        id: 5,
+        title: "UI/UX Designer",
+        department: "Design",
+        type: "Full-time",
+        location: "Remote",
+        posted: "3 days ago"
+      }
+    ],
+    team: [
+      {
+        name: "Alex Morgan",
+        role: "CEO",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        name: "Lisa Wang",
+        role: "CTO",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      }
+    ]
+  },
+  designstudio: {
+    name: "DesignStudio",
+    logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=400&fit=crop&crop=center",
+    cover: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&h=400&fit=crop&crop=center",
+    tagline: "Crafting beautiful experiences",
+    description: "DesignStudio is a creative design agency specializing in user experience and interface design. We help companies create digital products that users love and businesses thrive on.",
+    industry: "Design",
+    size: "50-200 employees",
+    founded: "2020",
+    location: "Remote",
+    website: "https://designstudio.com",
+    rating: 4.9,
+    reviewCount: 45,
+    culture: [
+      "Creative freedom",
+      "Remote-first",
+      "Design thinking",
+      "Work-life balance",
+      "Continuous learning"
+    ],
+    benefits: [
+      "Competitive salary",
+      "Full remote work",
+      "Design tools budget",
+      "Flexible schedule",
+      "Mental health support",
+      "Conference attendance"
+    ],
+    openJobs: [
+      {
+        id: 6,
+        title: "Senior Product Designer",
+        department: "Design",
+        type: "Full-time",
+        location: "Remote",
+        posted: "2 days ago"
+      }
+    ],
+    team: [
+      {
+        name: "Maya Patel",
+        role: "Creative Director",
+        image: "https://images.unsplash.com/photo-1494790108755-2616b612b5e5?w=150&h=150&fit=crop&crop=face"
+      }
+    ]
+  },
+  datatech: {
+    name: "DataTech",
+    logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop&crop=center",
+    cover: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=400&fit=crop&crop=center",
+    tagline: "Data-driven solutions",
+    description: "DataTech provides advanced analytics and machine learning solutions to help businesses make smarter decisions. Our team of data scientists and engineers work on cutting-edge AI technologies.",
+    industry: "Data Science",
+    size: "200-500 employees",
+    founded: "2016",
+    location: "Austin, TX",
+    website: "https://datatech.com",
+    rating: 4.7,
+    reviewCount: 112,
+    culture: [
+      "Data-driven",
+      "Research-focused",
+      "Innovation",
+      "Collaboration",
+      "Continuous improvement"
+    ],
+    benefits: [
+      "Equity participation",
+      "Premium healthcare",
+      "Research budget",
+      "Conference speaking",
+      "Flexible PTO",
+      "Modern workspace"
+    ],
+    openJobs: [
+      {
+        id: 7,
+        title: "Data Scientist",
+        department: "Data Science",
+        type: "Full-time",
+        location: "Austin, TX",
+        posted: "1 week ago"
+      },
+      {
+        id: 8,
+        title: "Machine Learning Engineer",
+        department: "Engineering",
+        type: "Full-time",
+        location: "Austin, TX",
+        posted: "4 days ago"
+      }
+    ],
+    team: [
+      {
+        name: "Dr. James Liu",
+        role: "Chief Data Officer",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        name: "Rachel Kim",
+        role: "Head of AI Research",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      }
+    ]
+  },
+  cloudsolutions: {
+    name: "CloudSolutions",
+    logo: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=400&fit=crop&crop=center",
+    cover: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=400&fit=crop&crop=center",
+    tagline: "Powering the cloud revolution",
+    description: "CloudSolutions is a leading cloud infrastructure provider offering scalable, secure, and reliable cloud services to businesses of all sizes. We help companies modernize their IT infrastructure.",
+    industry: "Cloud Computing",
+    size: "1000+ employees",
+    founded: "2014",
+    location: "Seattle, WA",
+    website: "https://cloudsolutions.com",
+    rating: 4.5,
+    reviewCount: 203,
+    culture: [
+      "Scale mindset",
+      "Security first",
+      "Customer success",
+      "Technical excellence",
+      "Global thinking"
+    ],
+    benefits: [
+      "Competitive compensation",
+      "Stock options",
+      "Comprehensive benefits",
+      "Professional development",
+      "Sabbatical program",
+      "Global opportunities"
+    ],
+    openJobs: [
+      {
+        id: 9,
+        title: "Cloud Architect",
+        department: "Engineering",
+        type: "Full-time",
+        location: "Seattle, WA",
+        posted: "5 days ago"
+      },
+      {
+        id: 10,
+        title: "Site Reliability Engineer",
+        department: "Operations",
+        type: "Full-time",
+        location: "Seattle, WA",
+        posted: "1 week ago"
+      }
+    ],
+    team: [
+      {
+        name: "Robert Zhang",
+        role: "VP of Engineering",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        name: "Sarah Thompson",
+        role: "Director of Cloud Services",
+        image: "https://images.unsplash.com/photo-1494790108755-2616b612b5e5?w=150&h=150&fit=crop&crop=face"
+      }
+    ]
+  },
+  appventures: {
+    name: "AppVentures",
+    logo: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop&crop=center",
+    cover: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&h=400&fit=crop&crop=center",
+    tagline: "Mobile-first innovation",
+    description: "AppVentures creates innovative mobile applications for various industries. We specialize in iOS and Android development, delivering user-friendly apps that solve real-world problems.",
+    industry: "Mobile Apps",
+    size: "100-500 employees",
+    founded: "2019",
+    location: "Los Angeles, CA",
+    website: "https://appventures.com",
+    rating: 4.4,
+    reviewCount: 67,
+    culture: [
+      "Mobile-first",
+      "User-centric design",
+      "Rapid prototyping",
+      "Cross-platform expertise",
+      "Startup mentality"
+    ],
+    benefits: [
+      "Competitive salary",
+      "Health insurance",
+      "Device budget",
+      "Flexible work",
+      "Team building events",
+      "Professional growth"
+    ],
+    openJobs: [
+      {
+        id: 11,
+        title: "iOS Developer",
+        department: "Mobile Development",
+        type: "Full-time",
+        location: "Los Angeles, CA",
+        posted: "3 days ago"
+      },
+      {
+        id: 12,
+        title: "Android Developer",
+        department: "Mobile Development",
+        type: "Full-time",
+        location: "Los Angeles, CA",
+        posted: "1 week ago"
+      }
+    ],
+    team: [
+      {
+        name: "Carlos Martinez",
+        role: "Head of Mobile",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      },
+      {
+        name: "Jessica Chen",
+        role: "Lead iOS Developer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
       }
     ]
   }
